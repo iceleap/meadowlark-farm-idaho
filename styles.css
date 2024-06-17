@@ -10,13 +10,16 @@
   --light-font-color: #e4dede;
   --font-family-main: 'Pontano Sans', sans-serif;
   --font-family-second: adonis-web, sans-serif;
+  overscroll-behavior: none;
 }
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  height: 100%;
 }
 body {
   overflow-x: hidden;
+  height: 100%;
 }
 
 /* Fonts */
@@ -738,6 +741,12 @@ button a {
   nav {
     position: relative;
     z-index: 3;
+  }
+  .wrapper {
+    height: 15rem;
+  }
+  header.sticky {
+    height: 12.6rem;
   }
   .links {
     opacity: 0;
